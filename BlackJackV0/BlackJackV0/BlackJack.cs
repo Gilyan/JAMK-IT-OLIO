@@ -76,30 +76,6 @@ namespace JAMK.IT
                     Console.WriteLine("Please enter any number between 1-21. Enter 'x' or 'exit' to quit.");
                 }
 
-                
-
-                /*if (muuttuja.GetType() == typeof(int))
-                    {
-                        theirNumber = Convert.ToInt32(muuttuja);            // converting to int
-
-                        if (theirNumber < 1 || theirNumber > 21)            // comparing that given number is valid
-                        {
-                            Console.WriteLine("The given number is out of limits, try again.");
-                        }
-
-                        myNumber = rand.Next(10, 21);                       // random number between 10-21
-                        Console.WriteLine("My number is " + myNumber + ", and your number is " + theirNumber + ".");
-
-                        if (theirNumber >= myNumber && theirNumber <= 21)   //comparing
-                        {
-                            System.Console.WriteLine("You win.");
-                        }
-                        else
-                        {
-                            System.Console.WriteLine("You lose.");
-                        }
-                    }*/
-
             } while (true);
             
         }
